@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Letra M.png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>SITIO WEB / MAIRA</h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#biografia"><b>Biografía</b></a></li>
+                <li><a href="#hobbies"><b>Hobbies</b></a></li>
+                <li><a href="#tareas"><b>Tareas</b></a></li>
+                <li><a href="#horario"><b>Horario</b></a></li>
+                <li><a href="#formulario"><b>Formulario</b></a></li>
+                <li><a href="#contacto"><b>Contacto</b></a></li>
+            </ul>
+        </nav>
+        <br>
+        <button id="welcomeButton">¡Click Aquí Para Mostrar Mensaje de Bienvenida!</button>
+    </header>
+
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>Hola, soy Maira, tengo 19 años y actualmente estoy estudiando Ing.Sistemas en la universidad Libre...
+            En mis tiempos libres me gusta ir al gym, ver peliculas y series o salir a disfrutar con mis amig@s
+            a bailar o a comer.
+        </br></br>
+            Mi color favorito es el morado y mi película favorita es la Princesa y el Sapo, me gusta mucho bailar y 
+            mi genéro favorito es la salsa tanto para bailarla, escucharla y cantar.
+        </p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Mis Hobbies</h2>
+        <ul>
+            <li>Leer libros</li>
+            <li>Ver series</li>
+            <li>Ver peliculas</li>
+            <li>Viajar</li>
+            <li>Bailar</li>
+            <li>Ir al gym</li>
+        </ul>
+    </section>
+
+    <section id="tareas">
+        <h2>Tareas Prioritarias</h2>
+        <ol>
+            <li>Estudiar HTML y CSS</li>
+            <li>Aprender JavaScript</li>
+            <li>Aprender python</li>
+            <li>Aprender SQL</li>
+            <li>Ir al Gym</li>
+        </ol>
+    </section>
+
+    <section id="horario">
+        <h2>Mi Horario Semanal</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Actividad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Estudiar HTML y CSS.</br>
+                    Ir al gym.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>Estudiar HTML y CSS.</br>
+                    Ir al gym.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>Practicar JavaScript.</br>
+                    Ir al gym.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>Practicar JavaScript.</br>
+                    Ir al gym.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>Practicar Python.</br>
+                    Ir al gym.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sabado</td>
+                    <td>Practicar Python.</br>
+                    Ir al gym.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>Descanso</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form id="contact-form" action="submit_form.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="motivo">Motivo de Contacto:</label>
+            <input type="text" id="motivo" name="motivo" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <img src="img/Maira.jpg" alt="Maira Rodriguez" />
+
+        <p>Puedes contactarme a través del siguiente enlace</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/maira-a-rodriguez-v-0950b420b/" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+      </footer>
+</body>
+</html>

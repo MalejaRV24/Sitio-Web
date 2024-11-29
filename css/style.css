@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+section{
+    padding-left: 3%;
+}
+
+footer {
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+#biografia, #hobbies, #tareas, #formulario, #horario {
+    margin: 35px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+/*Encabezado*/
+header {
+    background-color: #eb75ba;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .navbar a:hover {
+    color: #f54c7e;
+  }
+
+/* Sección de hobbies y tareas */
+
+ul {
+    list-style-type:disc;
+    padding-left: 15px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li{
+    font-size: 18px;
+
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #fd7fde;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos de formulario */
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Formulario de contacto */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label, form input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+/* Botón */
+button {
+    background-color: #eb75ba;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #e04d92;
+}
+
